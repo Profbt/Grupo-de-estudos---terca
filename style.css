@@ -1,10 +1,21 @@
 body{
     background: #cccccc;
 }
+#banner{
+	width: 100%;
+}
 h1{
-    text-align: center;  
+    text-align: center;
+    font-size: 100px;  
 }
 p{
             text-align: center;
-            
+            color:darkred
         }
+#par1{
+    font-size: 45px;
+}
+#drone{
+    font-size: 25px;
+    text-align: left;
+}
