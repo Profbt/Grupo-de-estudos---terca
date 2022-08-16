@@ -42,6 +42,7 @@ p{
     padding-top: 1cm;
     text-align: center;
     font-size: 40px; 
+    text-transform: uppercase;
 }
 
 ul{
@@ -52,12 +53,17 @@ ul{
     margin-left: 7%;
 }
 
+li::marker {
+    content: "\27A1";
+    color: rgb(54, 126, 12);    
+}
+
 .trabalhos {
     font-size: 40px;
 }
 
 .drone{
-    width: 47%;
+    width: 40%;
     margin-right: 0px;
     padding-left: 0px;
 }
